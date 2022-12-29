@@ -1,4 +1,4 @@
-import {StorageItem} from '../models/storage';
+import {StorageItem} from '../models/storage-item';
 
 /**
  * This is generic interface interact with the underlying storage backends. 
