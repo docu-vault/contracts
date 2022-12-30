@@ -1,25 +1,23 @@
 {
-    "name": "@docuit/docuit-contracts",
+    "name": "@docu-vault/contracts",
     "description": "docuit application interface contracts",
-    "version": "0.0.5",
+    "version": "0.0.1",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [
         "/dist"
     ],
     "scripts": {
-        "co:login": "aws codeartifact login --tool npm --repository docudata --domain docudata --domain-owner 356531459747",
-        "prepare": "npm run co:login",
         "prepublishOnly": "npm run tsc",
         "tsc": "tsc -p tsconfig.json",
         "build": "npm install && npm run tsc"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/yerrabolu/docuit-contracts.git"
+        "url": "https://github.com/docu-vault/contracts.git"
     },
     "bugs": {
-        "url": "https://github.com/yerrabolu/docuit-contracts.git/issues"
+        "url": "https://github.com/docu-vault/contracts.git/issues"
     },
-    "homepage": "https://github.com/yerrabolu/docuit-contracts.git#readme"
+    "homepage": "https://github.com/docu-vault/contracts.git#readme"
 }
