@@ -8,4 +8,6 @@ export interface StorageInterface
 {
     getUploadURL : (obj: StorageItem, contentType: string) => Promise<string>;
     getDownloadURL: (obj: StorageItem, contentType: string) =>  Promise<string>;
+    fileToStorage : (localFilename: string, destObjectname: string) => Promise<number> ;
+    storageToFile : (objectName: string, localFilename: string) => Promise<void> ;
 }
