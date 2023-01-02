@@ -6,8 +6,8 @@ import {StorageItem} from '../models/storage-item';
  */
 export interface StorageInterface 
 {
-    getUploadURL : (obj: StorageItem, contentType: string) => Promise<string>;
-    getDownloadURL: (obj: StorageItem, contentType: string) =>  Promise<string>;
+    getSignedUrlForUpload : (obj: StorageItem, contentType: string) => Promise<string>;
+    getSignedUrlForDownload: (obj: StorageItem, contentType: string) =>  Promise<string>;
     fileToStorage : (localFilename: string, destObjectname: string) => Promise<boolean> ;
     storageToFile : (objectName: string, localFilename: string) => Promise<boolean> ;
 }
