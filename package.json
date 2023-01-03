@@ -1,7 +1,7 @@
 {
     "name": "@docu-vault/contracts",
     "description": "docuit application interface contracts",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "files": [

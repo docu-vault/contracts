@@ -1,5 +1,6 @@
 
-import {StorageItem} from './models/storage-item' ;
-import {StorageInterface } from './repository/storage-repository' ;
+import {StorageItem} from './storage-item' ;
+import {Storage } from './storage' ;
+import { Configuration } from './configuration';
 
-export {StorageItem, StorageInterface} ;
+export {StorageItem, Storage, Configuration} ;
