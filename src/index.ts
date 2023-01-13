@@ -1,6 +1,6 @@
 
 import {StorageItem} from './storage-item' ;
 import {Storage } from './storage' ;
-import { Configuration } from './configuration';
+import { ApplicationConfiguration } from './configuration';
 
-export {StorageItem, Storage, Configuration} ;
+export {StorageItem, Storage, ApplicationConfiguration} ;
